@@ -20,7 +20,7 @@ public class BestStudent {
                 total += marks[i][j];
             }
             averages[i] = total / 5.0;
-            sc.nextLine();
+            sc.nextLine();  // Clear the newline character from the buffer
         }
         
         int bestStudentIndex = 0;
